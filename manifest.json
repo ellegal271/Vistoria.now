@@ -1,0 +1,42 @@
+{
+  "name": "Vistoria",
+  "short_name": "Vistoria",
+  "description": "Una plataforma de descubrimiento visual original impulsada por IA.",
+  "id": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f43f5e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/9.x/initials/svg?seed=V&backgroundColor=f43f5e",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://api.dicebear.com/9.x/initials/svg?seed=V&backgroundColor=f43f5e",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "lifestyle", "photo"],
+  "shortcuts": [
+    {
+      "name": "Explorar",
+      "short_name": "Explorar",
+      "description": "Descubre nuevos Visios",
+      "url": "/?mode=explore",
+      "icons": [{ "src": "https://api.dicebear.com/9.x/initials/svg?seed=E", "sizes": "192x192" }]
+    },
+    {
+      "name": "Crear",
+      "short_name": "Crear",
+      "description": "Sube un nuevo Visio",
+      "url": "/?mode=create",
+      "icons": [{ "src": "https://api.dicebear.com/9.x/initials/svg?seed=C", "sizes": "192x192" }]
+    }
+  ]
+}

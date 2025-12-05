@@ -1,0 +1,8 @@
+{
+  "name": "Vistoria 300",
+  "description": "Una plataforma de descubrimiento visual original impulsada por IA. Explora, guarda y organiza Visios únicos con una experiencia de usuario fluida y moderna.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
